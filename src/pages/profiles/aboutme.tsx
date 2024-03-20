@@ -1,7 +1,7 @@
-import React from 'react';
+import * as React from 'react';
 import Link from 'next/link';
 
-export const aboutme = () => {
+const AboutMe = () => {
   return (
     <>
       <h1>About Me</h1>
@@ -11,3 +11,5 @@ export const aboutme = () => {
     </>
   );
 };
+
+export default AboutMe;

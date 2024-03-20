@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>
-        <Link href="/pages/aboutme">About Me</Link>
+        <Link href="/profiles/aboutme">About Me</Link>
       </h1>
     </main>
   );
