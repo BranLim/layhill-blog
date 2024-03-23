@@ -5,9 +5,9 @@ const AboutMe = () => {
   return (
     <>
       <h1>About Me</h1>
-      <h2>
+      <h4>
         <Link href="/">Back to home</Link>
-      </h2>
+      </h4>
     </>
   );
 };
